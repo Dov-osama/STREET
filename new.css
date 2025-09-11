@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+ .nav-link{
+color: black;
+}
+.nav-link:hover{
+    color: #a19691;
+}
+
+.product-page{
+display:grid ;
+grid-template-columns: 1fr 1fr;
+
+
+}
+.product-gallery{
+  display: flex;
+  flex-direction: column;
+
+}
+.thumbnails{
+    display: flex;
+    gap: 8px;
+    margin-top: 5px;
+}
+.max{
+    border-radius:15px;
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 100%;
+}
+
+.thumbnails img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+ transition: transform 0.2s;
+ margin-left: 25px;
+}
+.thumbnails img:hover {
+  transform: scale(1.05);
+}
+.textt h4{
+    font-size: 1.8rem;
+    margin-bottom: 1rem ;
+    margin-top: 60px;
+    margin-left: 4rem;
+}
+.pr{
+    font-size: larger;
+     margin-left: 4rem;
+     margin-top: 20px;
+}
+
+.col-auto{
+    margin-top: 80px;
+    margin-left: 4rem;
+    width: 30rem;
+    
+}
+
+
+/* From Uiverse.io by vinodjangid07 */ 
+.CartBtn {
+  width: 30rem;
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgb(#a19691);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: .5s;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.103);
+  position: relative;
+  margin-top: 70px;
+}
+
+.IconContainer {
+  position: absolute;
+  left: -50px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 2;
+  transition-duration: .5s;
+}
+
+.icon {
+  border-radius: 1px;
+}
+
+.text {
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(17, 17, 17);
+  z-index: 1;
+  transition-duration: .5s;
+  font-size: 1.04em;
+  font-weight: 600;
+}
+
+.CartBtn:hover .IconContainer {
+  transform: translateX(58px);
+  border-radius: 40px;
+  transition-duration: .5s;
+}
+
+.CartBtn:hover .text {
+  transform: translate(10px,0px);
+  transition-duration: .5s;
+}
+
+.CartBtn:active {
+  transform: scale(0.95);
+  transition-duration: .5s;
+}
+
+.reviews{
+     margin-top: 80px;
+    margin-left: 4rem;
+      padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+

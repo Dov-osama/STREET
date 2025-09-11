@@ -1,0 +1,376 @@
+
+body{
+   width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+
+
+nav{
+    background-color:#bfb5b0 ;
+
+   
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+  color: #555555;
+}
+.btnttu{
+  background-color: #1f1e1e;
+  color:rgb(231, 231, 231) ;
+  border-radius: 15px;
+  border-color: #000000;
+}
+.btnttu:hover{
+background-color: #bfb5b0;
+color: #000000;
+border-color: #000000;
+
+}
+.hero-section{
+    background-image: url(imgg55.png) ;
+    background-size: cover;
+    height: 100%;
+    
+}
+.shop-now{
+ position: absolute;
+  top: 60%;
+  right: 50%;
+  left: 50%;
+  background-color:  #bfb5b0;
+  padding: 10px  50px;
+  transform: translate(-50%);
+  border: none;
+  font-size: 25px;
+   position: absolute;
+   font-weight: bold;
+   width: fit-content;
+
+}
+
+.shop-now:hover{
+    background-color: rgb(128, 118, 105);
+    color: beige;
+}
+
+.text-y{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+.btns {
+        background-color: rgb(0, 0, 0);
+       color: beige;
+       padding: 10px 20px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+     border: 1px solid #fff;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 0.9rem;
+        }
+
+        .btns:hover {
+    background-color: #bfb5b0;
+   color: black;
+        }
+
+  
+
+
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+   
+  }
+
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+    padding: 20px;
+  }
+}
+
+
+.MD {
+    background-color:#bfb5b0;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.hed {
+    font-size: 3em;
+    margin: 0 0 10px 0;
+    font-weight: normal;
+}
+
+
+.ph {
+    font-size: 1em;
+    color: rgba(95, 93, 93, 0.7);
+    margin: 0 0 30px 0;
+}
+
+
+.btn-btn-light {
+    background-color: #fff;
+    color: black;
+    padding: 12px 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #fff;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-color: rgb(81, 81, 81);
+}
+
+
+.btn-btn-light:hover {
+    background-color: #000;
+    color: #fff;
+}
+h1{
+    color: #272727;
+
+}
+
+
+.imt{
+    width: 400px;
+}
+
+
+.promo-content{
+ display: inline-block;
+
+
+}
+
+ .promo-content h1 {
+ font-size: 3em;
+ font-weight: bold;
+ color: #000;
+ margin: 0 0 10px 0;
+
+ }
+
+.la{
+    font-size: xxx-large;
+    color: #555454;
+    
+}
+
+.bt{
+    padding: 60px;
+    display: flex;
+    gap: 60px;
+    font-size: xx-large;
+    
+}
+
+.btn-n{
+    background-color: #252525;
+    border-color: #000;
+    border: none;
+
+
+}
+
+.btn-n:hover{
+    background-color: #bfb5b0;
+    color: #555454;
+}
+
+ .card {
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    }
+
+  .card:hover {
+    transform: translateY(-8px);
+    }
+
+
+
+
+
+.footer {
+  background:#bfb5b0 ;
+  color: #fff;
+  padding: 50px 20px;
+  font-family: Arial, sans-serif;
+  position: relative;
+  text-align: center;
+  height: fit-content;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer-logo h2 {
+ display: inline-block;
+  
+}
+
+.footer-socials {
+  margin-top: 10px;
+    
+}
+
+.footer-socials a {
+  color: #fff;
+  margin: 0 8px;
+  font-size: 18px;
+  transition: 0.3s;
+ 
+}
+
+.footer-socials a:hover {
+  color: #555555;
+}
+
+.footer-newsletter p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 65rem;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 65rem;
+  margin-bottom: 10rem;
+  
+}
+
+.newsletter-form input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  min-width: 250px;
+  
+}
+
+.newsletter-form button {
+  background: #fff;
+  color: #000;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.newsletter-form button:hover {
+  background: #000000;
+  color: #fff;
+}
+
+.footer-bottom {
+  display: inline;
+  
+}
+
+.footer-bottom ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-bottom ul li a {
+  color: #1f1e1e;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-bottom ul li a:hover {
+  color: #cecece;
+}
+
+  .card-btn {
+  height: 35px;
+  background: var(--bg-color);
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  padding: 0 15px;
+  transition: all 0.3s;
+}
+
+.card-btn svg {
+  width: 100%;
+  height: 100%;
+  fill: var(--main-color);
+  transition: all 0.3s;
+}
+
+
+
+/* From Uiverse.io by vinodjangid07 */ 
+.buttontt {
+  width: fit-content;
+  height: 40px;
+  background-image: linear-gradient(rgb(#bfb5b0), rgb(#bfb5b0));
+  border: none;
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  box-shadow: 1px 3px 0px rgb(245, 243, 255);
+  transition-duration: .3s;
+}
+
+.cartIcon {
+  width: 14px;
+  height: fit-content;
+}
+
+.cartIcon path {
+  fill: rgb(0, 0, 0);
+}
+
+.buttontt:active {
+  transform: translate(2px ,0px);
+  box-shadow: 0px 1px 0px rgb(247, 245, 255);
+  padding-bottom: 1px;
+}
+
+
+
+
+
