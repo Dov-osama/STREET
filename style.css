@@ -370,9 +370,74 @@ h1{
   padding-bottom: 1px;
 }
 
+.bt-new{
+  position: absolute;
+  right: 45%;
+  left: 45%;
+  top: 75%;
+  
+  font-size: 30px;
+  padding: 0.4rem;
+  width: fit-content;
+  background-color: #ffffff;
+  color: black;
+  border: 0;
+
+}
+.bt-new:hover{
+  background-color:black;
+  color: #ffffff;
+}
 
 
 
 
 
 
+
+
+.cardd{
+  background-color:#e0cabe ;
+}
+
+.text-box h1{
+  position: absolute;
+  left: 20%;
+  font-size: 4rem;
+}
+.text-box h3{
+  position: absolute;
+  left: 10%;
+  margin-top: 15rem;
+  font-size: 40px;
+
+  
+ 
+}
+
+.te{
+  flex: 1;
+  position: absolute;
+  left:15% ;
+  margin-top: 30rem;
+  font-size: 30px;
+}
+.card-imgt
+{
+  display: flex;
+  justify-content: end;
+  flex: 1;
+  border: 30px;
+  border-color: #000000;
+
+}
+.imgt{
+  height: 35rem;
+  width: 35rem;
+  border-radius: 50%;
+  padding: 1px;
+  margin-bottom: 7rex;
+  margin-top: 0.5rex;
+}
+
+*/

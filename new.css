@@ -26,8 +26,9 @@ grid-template-columns: 1fr 1fr;
 }
 .thumbnails{
     display: flex;
-    gap: 8px;
-    margin-top: 5px;
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: start;
 }
 .max{
     border-radius:15px;
